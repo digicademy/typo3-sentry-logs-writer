@@ -1,0 +1,40 @@
+{
+	"name": "digicademy/typo3-sentry-logs-writer",
+	"type": "typo3-cms-extension",
+	"description": "TYPO3 log writer that sends log Sentry Logs API.",
+	"authors": [
+		{
+			"name": "Frodo Podschwadek",
+			"email": "frodo.podschwadek@adwmainz.de",
+			"role": "Developer",
+			"homepage": "https://www.adwmainz.de/personen/mitarbeiterinnen/profil/frodo-podschwadek.html"
+		}
+	],
+	"license": [
+		"GPL-2.0+"
+	],
+	"keywords": [
+		"TYPO3",
+		"Extension",
+		"Sentry",
+		"GlitchTip",
+		"Logging",
+		"Logs"
+	],
+	"require": {
+		"php": "8.3 - 8.5",
+		"typo3/cms-core": "^12.4 || ^13.4 || ^14.3",
+		"networkteam/sentry-client": "^6.0",
+		"sentry/sentry": "^4.31"
+	},
+	"autoload": {
+		"psr-4": {
+			"Digicademy\\Typo3SentryLogsWriter\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "sentry_logs_writer"
+		}
+	}
+}
