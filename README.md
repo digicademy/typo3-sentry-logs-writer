@@ -1,7 +1,7 @@
 # TYPO3 Sentry Logs Writer
 
-[![Packagist Downloads](https://img.shields.io/packagist/dt/digicademy/typograph?logo=packagist)](https://packagist.org/packages/digicademy/typo3-sentry-logs-writer)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/digicademy/typograph?logo=github)](https://github.com/digicademy/typo3-sentry-transaction-handler/commits/main/)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/digicademy/typo3-sentry-logs-writer?logo=packagist)](https://packagist.org/packages/digicademy/typo3-sentry-logs-writer)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/digicademy/typo3-sentry-logs-writer?logo=github)](https://github.com/digicademy/typo3-sentry-logs-writer/commits/main/)
 
 A TYPO3 log writer that sends log records to the Sentry Logs API, so that they
 show up as structured logs in Sentry or GlitchTip.
